@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+.bg-container {
+  background-color: aquamarine;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading-login {
+  text-align: center;
+  font-family: Caveat, cursive;
+  font-size: 32px;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+.button {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  width: 40%;
+  border-radius: 4px;
+}
